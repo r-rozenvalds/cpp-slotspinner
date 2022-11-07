@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SlotSpinner.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\SlotSpinner.dir/objects.a @CMakeFiles\SlotSpinner.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -static -Wl,--whole-archive CMakeFiles\SlotSpinner.dir/objects.a -Wl,--no-whole-archive -o SlotSpinner.exe -Wl,--out-implib,libSlotSpinner.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SlotSpinner.dir\linklibs.rsp
